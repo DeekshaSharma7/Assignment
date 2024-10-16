@@ -1,0 +1,25 @@
+/* Custom rotate animation */
+.rotate-card {
+  transition: transform 0.5s ease;
+}
+
+.rotate-card:hover {
+  transform: rotate(360deg);
+}
+
+#assignment {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+        position: relative; /* Set relative positioning for the card */
+      }
+
+      .card img {
+        position: absolute; /* Set absolute positioning for the image */
+        top: -34px; /* Adjust this value to move the image up */
+        left: 50%; /* Center the image horizontally */
+        transform: translateX(-50%); /* Centering adjustment */
+      }
